@@ -10,12 +10,12 @@ export class RecipeService {
 
   private recipes: Recipe[] = [
     new Recipe(
-      'A Test Recipe',
-      'This is simply a test',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/10_minute_Recipe_for_a_Healthy_Garden_Salad_-_49859886512.jpg/1200px-10_minute_Recipe_for_a_Healthy_Garden_Salad_-_49859886512.jpg',
+      'Big Kahuna Burger',
+      'This IS a tasty burger!',
+      'https://www.skinnytaste.com/wp-content/uploads/2015/05/grilled-lean-teriyaki-burger-550x390.jpg',
       [
         new Ingredient('Meat', 1),
-        new Ingredient('French Fries', 20)
+        new Ingredient('Pineapple Slices', 2)
       ]),
     new Recipe(
       'Cheese Pizza',
